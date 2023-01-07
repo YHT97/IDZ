@@ -9,3 +9,6 @@ C:\Users\Alex\RiderProjects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsF
 C:\Users\Alex\RiderProjects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\Alex\RiderProjects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 C:\Users\Alex\RiderProjects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Alex\RiderProjects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Player.resources
+C:\Users\Alex\RiderProjects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Control.Draggable.dll
+C:\Users\Alex\RiderProjects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
