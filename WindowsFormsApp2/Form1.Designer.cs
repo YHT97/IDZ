@@ -39,6 +39,7 @@ namespace WindowsFormsApp2
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
@@ -64,9 +65,9 @@ namespace WindowsFormsApp2
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 50);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Export";
+            this.button2.Text = "Import";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.export_Click);
+            this.button2.Click += new System.EventHandler(this.import_Click);
             // 
             // button3
             // 
@@ -74,9 +75,9 @@ namespace WindowsFormsApp2
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 50);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Import";
+            this.button3.Text = "Export";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.import_Click);
+            this.button3.Click += new System.EventHandler(this.export_Click);
             // 
             // panel2
             // 
@@ -96,12 +97,12 @@ namespace WindowsFormsApp2
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] { "blue", "red" });
+            this.comboBox1.Items.AddRange(new object[] { "blue", "red", "ball", "judge" });
             this.comboBox1.Location = new System.Drawing.Point(122, 45);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(110, 21);
             this.comboBox1.TabIndex = 5;
-            this.comboBox1.Text = "Colour";
+            this.comboBox1.Text = "Type";
             // 
             // button4
             // 
@@ -111,12 +112,23 @@ namespace WindowsFormsApp2
             this.button4.TabIndex = 6;
             this.button4.Text = "Delete Last";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.deleteAllContent);
+            this.button4.Click += new System.EventHandler(this.deletelast);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(352, 16);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(50, 50);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Save";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.save_image);
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(536, 448);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
@@ -129,6 +141,8 @@ namespace WindowsFormsApp2
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.Button button5;
 
         private System.Windows.Forms.Button button4;
 

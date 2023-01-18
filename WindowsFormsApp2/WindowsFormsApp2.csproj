@@ -90,6 +90,7 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include="Resources\istockphoto_482437792_170667a.jpg" />
+      <Content Include="Resources\pngwing.com.png" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
